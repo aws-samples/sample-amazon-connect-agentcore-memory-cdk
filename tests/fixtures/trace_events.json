@@ -1,0 +1,30 @@
+[
+  {
+    "assistant_id": "11111111-2222-3333-4444-111122223333",
+    "event_timestamp": 1781251366278,
+    "event_type": "TRANSCRIPT_CREATE_SESSION",
+    "session_id": "5e551011-0000-4000-8000-000000000001",
+    "session_name": "c0a7ac71-0000-4000-8000-000000000001"
+  },
+  {
+    "assistant_id": "11111111-2222-3333-4444-111122223333",
+    "event_timestamp": 1781251390616,
+    "event_type": "TRANSCRIPT_UTTERANCE",
+    "session_id": "5e551011-0000-4000-8000-000000000001",
+    "utterance": "[CUSTOMER] do you have the details about my booking? booking reference: EX-BK-2026-4471",
+    "session_event_id": "0e5c0003-0000-4000-8000-000000000003"
+  },
+  {
+    "assistant_id": "11111111-2222-3333-4444-111122223333",
+    "event_timestamp": 1781251391029,
+    "event_type": "TRANSCRIPT_ORCHESTRATION_MESSAGE",
+    "session_id": "5e551011-0000-4000-8000-000000000001",
+    "model_id": "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "session_message_id": "0e5c0002-0000-4000-8000-000000000002",
+    "ai_agent_id": "0e5c0001-0000-4000-8000-000000000001",
+    "participant": "CUSTOMER",
+    "values": "[{\"type\":\"text\",\"value\":\"do you have the details about my booking? booking reference: EX-BK-2026-4471\"}]",
+    "orchestration_id": "0e5c0002-0000-4000-8000-000000000002",
+    "ai_agent_orchestration_use_case": "Connect.SelfService"
+  }
+]

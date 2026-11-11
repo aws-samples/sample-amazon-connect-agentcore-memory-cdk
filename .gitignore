@@ -1,0 +1,22 @@
+*.swp
+__pycache__
+.pytest_cache
+.venv
+*.egg-info
+.DS_Store
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Vendored Lambda deployment packages built by scripts/bundle_lambdas.sh - never commit
+# boto3/botocore or other vendored dependencies, only the source they're built from.
+dist/
+
+# Node (not used by this Python CDK app)
+node_modules/
+
+# Local CDK context, environment files and logs
+cdk.context.json
+.env
+*.log

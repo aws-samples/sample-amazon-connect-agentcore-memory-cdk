@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    groups:
+      python-dependencies:
+        patterns: ["*"]
+  - package-ecosystem: "pip"
+    directories:
+      - "/lambdas/writer"
+      - "/lambdas/reader"
+    schedule:
+      interval: "monthly"
+    groups:
+      lambda-dependencies:
+        patterns: ["*"]
